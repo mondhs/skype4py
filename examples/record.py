@@ -62,11 +62,13 @@ except:
 
 try:
     WavFile = sys.argv[2]
+    print 'WavFile: ' + WavFile
 except:
     WavFile = ''
 
 try:
     OutFile = sys.argv[3]
+    print 'OutFile: ' + OutFile
 except:
     OutFile = ''
 

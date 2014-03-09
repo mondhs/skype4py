@@ -11,7 +11,8 @@ from enums import *
 
 class DeviceMixin(object):
     def _Device(self, Name, DeviceType=None, Set=NoneType):
-        args = args2dict(self._Property(Name, Cache=False))
+        #args = args2dict(self._Property(Name, Cache=False))
+        args = {}
         if Set is NoneType:
             for dev, value in args.items():
                 try:
